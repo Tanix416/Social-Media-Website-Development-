@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  
+  body {
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+    padding: 35px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    background: linear-gradient(to top right, #7c89d5, #f599a5)
+  } 
+   .shadow1{
+    box-shadow: 1px 1px 1px   rgba(0,0,0,0.15) ;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(242, 242, 226);
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 40px;
+  margin-left: 3rem;
+    
+  }

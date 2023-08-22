@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SignUp Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./user_style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login">
+	<h1>Sign-Up</h1>
+  <form action="signup_suc.jsp" method="post" name="signup" onsubmit="return func1()">
+  <input type="text" name="email" placeholder="Email" required="required" onchange="func2(this.value)" />
+  <div id="result1"></div>
+	<input type="text" name="uname" placeholder="Username" required="required" onchange="func3(this.value)"/>
+  <div id="result2"></div>
+	<input type="text" name="tn" placeholder="Phone Number" required="required" />
+	<input type="date" name="dt" placeholder="Date Of Birth" required="required" />
+	<input type="password" name="passwd" placeholder="Password" required="required" id="pass1"/>
+	<input type="password" name="cpassword" placeholder="Confirm Password" required="required" id="cpass1"/>
+  <button type="submit" class="btn btn-primary btn-block btn-large">Sign-Up.</button>
+    </form >
+
+</div>
+<!-- partial -->
+<script src="./user_script.js"></script>
+
+</body>
+</html>
